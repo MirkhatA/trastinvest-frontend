@@ -1,0 +1,46 @@
+.offer-product-card {
+  width: 300px;
+  text-align: center;
+
+  &__image-wrapper {
+    border: 1px solid var(--color-light-gray);
+    border-radius: 2px;
+    padding: 20px 15px 0;
+
+    img {
+      margin: 30px 0;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__labels {
+    font-size: var(--font-size-sm);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__label-promo {
+    padding: 6px 10px;
+    background: var(--color-red);
+    color: var(--color-white);
+    border-radius: 3px;
+  }
+
+  &__label-availability {
+    color: var(--color-green);
+  }
+
+  &__name {
+    font-size: var(--font-size-md);
+  }
+
+  &__category {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray);
+  }
+}
+

@@ -1,0 +1,20 @@
+:root {
+  --color-dark-gray: #363636;
+  --color-gray: #828282;
+  --color-light-gray: #D9D9D9;
+  --color-orange: #E67817;
+  --color-red: #F12020;
+  --color-green: #36BD7A;
+  --color-blue: #015198;
+  --color-white: #FFFFFF;
+  --color-light-blue: #F1F9FF;
+
+  --font-size-xxl: 36px;
+  --font-size-xl: 20px;
+  --font-size-md: 14px;
+  --font-size-sm: 12px;
+}
+* {
+  color: var(--color-dark-gray);
+  font-family: Inter, sans-serif;
+}
